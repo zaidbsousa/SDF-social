@@ -390,8 +390,8 @@ body::before {
 /* Responsive design */
 @media (max-width: 480px) {
     .container {
-        max-width: 340px;
-        padding: 1.5rem 1rem;
+        max-width: 98vw;
+        padding: 1.2rem 0.5rem;
     }
     
     .title {
@@ -411,6 +411,9 @@ body::before {
         width: 38px;
         height: 38px;
         font-size: 0.9rem;
+    }
+    .social-links {
+        gap: 0.25rem;
     }
 }
 
@@ -590,4 +593,23 @@ body::before {
     width: 60%;
     margin: 2.2rem auto 1.2rem auto;
     background: transparent;
+}
+
+.contact-info {
+    padding-top: 12px;
+}
+
+.contact-info a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #f8fafc77;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #ffd700;
 } 
